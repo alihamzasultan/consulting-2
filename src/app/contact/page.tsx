@@ -2,7 +2,7 @@
 import React from "react";
 import { Meteors } from "@/components/ui/meteors";
 
-export function MeteorsDemo() {
+export function page() {
   return (
     <div className="">
       <div className=" w-full relative max-w-xs">
@@ -23,4 +23,4 @@ export function MeteorsDemo() {
     </div>
   );
 }
-export default MeteorsDemo
+export default page
