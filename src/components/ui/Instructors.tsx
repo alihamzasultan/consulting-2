@@ -1,8 +1,6 @@
 'use client'
 import { AnimatedTooltip } from "./animated-tooltip";
 import { WavyBackground } from "./wavy-background";
-import { AnimatePresence, motion } from "framer-motion";
-import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 
 const instructors = [
     {
