@@ -42,6 +42,14 @@ function addSvgPatterns({ matchUtilities, theme }: any) {
 }
 
 
+
+
+
+
+
+
+
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -54,7 +62,8 @@ const config: Config = {
       animation:{
         spotlight: "spotlight 2s ease .75s 1 forwards",
         "meteor-effect": "meteor 5s linear infinite",
-        scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite"
+        scroll: "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        input: `0px 2px 3px -1px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(25,28,33,0.02), 0px 0px 0px 1px rgba(25,28,33,0.08)`,
         
       },
       backgroundImage: {
@@ -86,6 +95,6 @@ const config: Config = {
       
     },
   },
-  plugins: [addVariablesForColors, addSvgPatterns],
+  plugins: [addVariablesForColors, addSvgPatterns,addVariablesForColors,],
 };
 export default config;
